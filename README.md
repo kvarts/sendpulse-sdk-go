@@ -4,15 +4,15 @@ the SendPulse API via Go.
 
 SendPulse API official documentation [https://sendpulse.com/api](https://sendpulse.com/api)
 
-[![Build Status](https://travis-ci.com/dimuska139/sendpulse-sdk-go.svg?branch=master)](https://travis-ci.org/dimuska139/sendpulse-sdk-go)
-[![codecov](https://codecov.io/gh/dimuska139/sendpulse-sdk-go/branch/master/graph/badge.svg)](https://codecov.io/gh/dimuska139/sendpulse-sdk-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dimuska139/sendpulse-sdk-go)](https://goreportcard.com/report/github.com/dimuska139/sendpulse-sdk-go)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/dimuska139/sendpulse-sdk-go/blob/master/LICENSE)
+[![Build Status](https://travis-ci.com/kvarts/sendpulse-sdk-go.svg?branch=master)](https://travis-ci.org/kvarts/sendpulse-sdk-go)
+[![codecov](https://codecov.io/gh/kvarts/sendpulse-sdk-go/branch/master/graph/badge.svg)](https://codecov.io/gh/kvarts/sendpulse-sdk-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kvarts/sendpulse-sdk-go)](https://goreportcard.com/report/github.com/kvarts/sendpulse-sdk-go)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/kvarts/sendpulse-sdk-go/blob/master/LICENSE)
 
 ### Installation
 
 ```shell
-go get -u github.com/dimuska139/sendpulse-sdk-go/sendpulse
+go get -u github.com/kvarts/sendpulse-sdk-go/sendpulse
 ```
 
 ### Usage
@@ -22,7 +22,7 @@ package main
 import (
     "context"
     "fmt"
-    sendpulse "github.com/dimuska139/sendpulse-sdk-go/v7"
+    sendpulse "github.com/kvarts/sendpulse-sdk-go/v7"
     "net/http"
 )
 
