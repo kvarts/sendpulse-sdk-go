@@ -30,12 +30,14 @@ func (suite *SendpulseTestSuite) TestSmtpService_Send() {
 			Name:  "Alex",
 			Email: "Brown",
 		},
-		To: struct {
+		To: []struct {
 			Name  string `json:"name"`
 			Email string `json:"email"`
 		}{
-			Name:  "Andy",
-			Email: "Forest",
+			{
+				Name:  "Andy",
+				Email: "Forest",
+			},
 		},
 		Attachments: nil,
 	})

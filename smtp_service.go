@@ -30,7 +30,7 @@ type SendEmailParams struct {
 		Name  string `json:"name"`
 		Email string `json:"email"`
 	} `json:"from"`
-	To struct {
+	To []struct {
 		Name  string `json:"name"`
 		Email string `json:"email"`
 	} `json:"to"`
